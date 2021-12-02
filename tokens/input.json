@@ -10,6 +10,10 @@
     }
   },
   "lineHeights": {
+    "0": {
+      "value": "AUTO",
+      "type": "lineHeights"
+    },
     "auto": {
       "value": "AUTO",
       "type": "lineHeights"
@@ -23,9 +27,25 @@
     "bold": {
       "value": "Bold",
       "type": "fontWeights"
+    },
+    "lato-0": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "roboto-1": {
+      "value": "Regular",
+      "type": "fontWeights"
     }
   },
   "fontSize": {
+    "0": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": 64,
+      "type": "fontSizes"
+    },
     "16": {
       "value": 16,
       "type": "fontSizes"
