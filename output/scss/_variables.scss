@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 02 Dec 2021 14:12:37 GMT
+// Generated on Thu, 02 Dec 2021 14:32:35 GMT
 
 $font-families-lato: Lato;
 $font-families-roboto: Roboto;
@@ -8,13 +8,14 @@ $line-heights-0: AUTO;
 $line-heights-auto: AUTO;
 $font-weights-regular: Regular;
 $font-weights-bold: Bold;
-$font-weights-lato-0: Regular;
-$font-weights-roboto-1: Regular;
+$font-weights-lato-regular: Regular;
+$font-weights-roboto-regular: Regular;
 $font-size-0: 16;
 $font-size-1: 64;
 $font-size-16: 16;
 $font-size-18: 18;
 $font-size-h1: 64;
+$font-size-h6: 22;
 $letter-spacing-0: -0.5;
 $letter-spacing-1: 0.5;
 $paragraph-spacing-0: 0;
@@ -26,6 +27,14 @@ $text-header-h1-letter-spacing: -0.5;
 $text-header-h1-paragraph-spacing: 0;
 $text-header-h1-text-case: none;
 $text-header-h1-text-decoration: none;
+$text-header-h6-font-family: Lato;
+$text-header-h6-font-weight: Regular;
+$text-header-h6-line-height: AUTO;
+$text-header-h6-font-size: $fontSize.22;
+$text-header-h6-letter-spacing: -0.5;
+$text-header-h6-paragraph-spacing: 0;
+$text-header-h6-text-case: none;
+$text-header-h6-text-decoration: none;
 $text-body-default-regular-font-family: Roboto;
 $text-body-default-regular-font-weight: Regular;
 $text-body-default-regular-line-height: AUTO;
@@ -44,4 +53,3 @@ $text-body-default-bold-text-case: none;
 $text-body-default-bold-text-decoration: none;
 $text-case-none: none;
 $text-decoration-none: none;
-$h6: 22;

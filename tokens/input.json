@@ -28,11 +28,11 @@
       "value": "Bold",
       "type": "fontWeights"
     },
-    "lato-0": {
+    "lato-regular": {
       "value": "Regular",
       "type": "fontWeights"
     },
-    "roboto-1": {
+    "roboto-regular": {
       "value": "Regular",
       "type": "fontWeights"
     }
@@ -56,6 +56,10 @@
     },
     "h1": {
       "value": 64,
+      "type": "fontSizes"
+    },
+    "h6": {
+      "value": 22,
       "type": "fontSizes"
     }
   },
@@ -89,6 +93,32 @@
         },
         "fontSize": {
           "value": 64
+        },
+        "letterSpacing": {
+          "value": -0.5
+        },
+        "paragraphSpacing": {
+          "value": 0
+        },
+        "textCase": {
+          "value": "none"
+        },
+        "textDecoration": {
+          "value": "none"
+        }
+      },
+      "h6": {
+        "fontFamily": {
+          "value": "Lato"
+        },
+        "fontWeight": {
+          "value": "Regular"
+        },
+        "lineHeight": {
+          "value": "AUTO"
+        },
+        "fontSize": {
+          "value": "$fontSize.22"
         },
         "letterSpacing": {
           "value": -0.5
@@ -172,9 +202,5 @@
       "value": "none",
       "type": "textDecoration"
     }
-  },
-  "h6": {
-    "value": 22,
-    "type": "fontSizes"
   }
 }
