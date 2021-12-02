@@ -4,6 +4,7 @@
     "source": ["tokens/**/*.json"],
     "platforms": {
       "css": {
+        transforms: ["attribute/cti", "name/cti/kebab", "colorTransform", "color/css"]
         "transformGroup": "css",
         "buildPath": "output/css/",
         "files": [
