@@ -26,8 +26,8 @@
         "buildPath": "output/android/",
         "files": [
           {
-            "destination": "font_dimensions.xml",
-            "format": "android/fontDimensions"
+            "destination": "font_dimens.xml",
+            "format": "android/fontDimens"
           },
           {
             "destination": "colors.xml",
