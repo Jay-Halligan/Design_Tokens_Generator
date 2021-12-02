@@ -1,4 +1,6 @@
+
 {
+
     "source": ["tokens/**/*.json"],
     "platforms": {
       "css": {
@@ -22,6 +24,7 @@
         ]
       },
       "android": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem"],
         "transformGroup": "android",
         "buildPath": "output/android/",
         "files": [
