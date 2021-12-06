@@ -18,18 +18,18 @@
         "files": [
           {
             "destination": "_variables.scss",
-            "format": "scss/variables"
+            "format": "scss/map-deep",
+            "mapName": "my-tokens"
           }
         ]
       },
       "andriod": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem"],
         "transformGroup": "andriod",
         "buildPath": "output/android/",
         "files": [
           {
-            "destination": "_variables.xml",
-            "format": "xml/variables"
+            "destination": "colors.xml",
+            "format": "android/colors"
           }
         ]
       }
