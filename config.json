@@ -7,7 +7,7 @@
         "buildPath": "output/css/",
         "files": [
           {
-            "destination": "output/css/variables.css",
+            "destination": "variables.css",
             "format": "css/variables"
           }
         ]
