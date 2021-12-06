@@ -24,6 +24,7 @@
         ]
       },
       "andriod": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb", "size/rem"],
         "transformGroup": "andriod",
         "buildPath": "output/android/",
         "files": [
