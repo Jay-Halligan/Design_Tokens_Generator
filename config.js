@@ -1,4 +1,4 @@
-
+  
 const StyleDictionary = require('style-dictionary');
 const chroma = require('chroma-js');
 
@@ -20,9 +20,8 @@ const colorTransform = (token) => {
   return color.hex();
 };
 
-
 module.exports = {
-    // This will match any files ending in json or json5
+  // This will match any files ending in json or json5
   // I am using json5 here so I can add comments in the token files for reference
   source: [`tokens/**/*.@(json|json5)`],
 
@@ -34,8 +33,7 @@ module.exports = {
       // only transforms that have transitive: true will be applied to tokens
       // that alias/reference other tokens
       transitive: true,
-      matcher: (token) => token.attributes.category === 'color'
-        && token.modify,
+      matcher: (token) => token.attributes.category === 'color' && token.modify,
       transformer: colorTransform
     },
 
@@ -49,66 +47,11 @@ module.exports = {
   platforms: {
     css: {
       transforms: [`attribute/cti`, `name/cti/kebab`, `colorTransform`, `color/css`],
-      buildPath: `build/`,
+      buildPath: `output/`,
       files: [{
         destination: `variables.css`,
         format: `css/variables`
       }]
     }
   }
-    // "source": ["tokens/**/*.json"],
-    // "platforms": {
-    //   "css": {
-    //     "transformGroup": "css",
-    //     "buildPath": "output/css/",
-    //     "files": [
-    //       {
-    //         "destination": "output/css/variables.css",
-    //         "format": "css/variables"
-    //       }
-    //     ]
-    //   },
-    //   "scss": {
-    //     "transformGroup": "scss",
-    //     "buildPath": "output/scss/",
-    //     "files": [
-    //       {
-    //         "destination": "_variables.scss",
-    //         "format": "scss/variables"
-    //       }
-    //     ]
-    //   },
-    //   "android": {
-    //     "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem"],
-    //     "transformGroup": "android",
-    //     "buildPath": "output/android/",
-    //     "files": [
-    //       {
-    //         "destination": "font_dimens.xml",
-    //         "format": "android/fontDimens"
-    //       },
-    //       {
-    //         "destination": "colors.xml",
-    //         "format": "android/colors"
-    //       }
-    //     ]
-    //   },
-    //   "ios": {
-    //     "transformGroup": "ios",
-    //     "buildPath": "output/ios/",
-    //     "files": [
-    //       {
-    //         "destination": "StyleDictionaryColor.h",
-    //         "format": "ios/colors.h",
-    //         "className": "StyleDictionaryColor",
-    //         "type": "StyleDictionaryColorName",
-    //         "filter": {
-    //           "attributes": {
-    //             "category": "color"
-    //           }
-    //         }
-    //       }
-    //     ]
-    //   }
-    // }
-  };
+};
