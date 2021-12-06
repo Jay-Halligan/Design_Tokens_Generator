@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Mon, 06 Dec 2021 16:18:07 GMT
+-->
+<resources>
+  <color name="color-color-danger">rgb(255, 0, 0)</color>
+  <color name="color-color-blue">rgb(158, 209, 255)</color>
+  <color name="color-color-paleblue">rgb(158, 209, 255)</color>
+  <color name="color-color-green">rgb(0, 255, 0)</color>
+  <color name="color-color-black">rgb(0, 0, 0)</color>
+  <color name="color-color-background-button-primary-active">rgb(158, 209, 255)</color>
+  <string name="text-color-danger">#ff0000</string>
+  
+</resources>
