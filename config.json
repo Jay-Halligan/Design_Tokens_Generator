@@ -30,9 +30,26 @@
         "files": [
           {
             "destination": "colors.xml",
-            "format": "android/colors"
+            "format": "android/resources",
+            "filter":{
+              "attributes": { "category": "color" }
+            },
+            {
+              "destination": "fontSizes.xml",
+              "format": "android/resources",
+              "filter":{
+                "attributes": { "category": "size" }
+                }
+            },
+            {
+              "destination": "content.xml",
+              "format": "android/resources",
+              "filter":{
+                "attributes": { "category": "content" }
+                }            
+              },
           }
-        ]
-      }
+            ]
+          }
     }
   }
