@@ -2,32 +2,9 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 06 Dec 2021 15:08:41 GMT
+  Generated on Mon, 06 Dec 2021 15:13:23 GMT
 -->
 <resources>
-  <color name="color-danger">rgb(255, 0, 0)</color>
-  <color name="color-danger-rgb">rgb(255, 0, 0)</color>
-  <color name="color-text-body-default-regular">[object Object]</color>
-  <color name="color-text-header-h1">[object Object]</color>
-  <color name="color-text-header-h6">[object Object]</color>
-  <color name="color-text-header-h5">[object Object]</color>
-  <color name="color-font-families-lato">rgb(0, 0, 0)</color>
-  <color name="color-font-families-roboto">rgb(0, 0, 0)</color>
-  <color name="color-line-heights-0">rgb(0, 0, 0)</color>
-  <color name="color-font-weights-regular">rgb(0, 0, 0)</color>
-  <color name="color-font-weights-bold">rgb(0, 0, 0)</color>
-  <color name="color-font-size-0">rgb(0, 0, 0)</color>
-  <color name="color-font-size-1">rgb(0, 0, 0)</color>
-  <color name="color-font-size-2">rgb(0, 0, 0)</color>
-  <color name="color-font-size-3">rgb(0, 0, 0)</color>
-  <color name="color-letter-spacing-0">rgb(0, 0, 0)</color>
-  <color name="color-letter-spacing-1">rgb(0, 0, 0)</color>
-  <color name="color-letter-spacing-2">rgb(0, 0, 0)</color>
-  <color name="color-paragraph-spacing-0">rgb(0, 0, 0)</color>
-  <color name="color-text-case-none">rgb(0, 0, 0)</color>
-  <color name="color-text-decoration-none">rgb(0, 0, 0)</color>
-  <color name="color-blue">rgb(158, 209, 255)</color>
-  <color name="color-paleblue">rgb(158, 209, 255)</color>
-  <color name="color-green">rgb(0, 255, 0)</color>
+  <string name="text-color-danger">#ff0000</string>
   
 </resources>
