@@ -34,7 +34,7 @@
             "destination": "colors.xml",
             "format": "android/resources",
             "filter":{
-              "attributes": { "category": "color" }
+              "attributes": { "type": "color" }
             }
           },
             {
