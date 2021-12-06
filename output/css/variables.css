@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Dec 2021 16:18:07 GMT
+ * Generated on Mon, 06 Dec 2021 16:32:36 GMT
  */
 
 :root {
@@ -45,6 +45,8 @@
   --line-heights-0: AUTO;
   --font-families-roboto: Roboto;
   --font-families-lato: Lato;
+  --color-purple: #aa22ff;
+  --color-background-button-primary-active: #9ed1ff;
   --color-text-decoration-none: #000000;
   --color-text-case-none: #000000;
   --color-paragraph-spacing-0: #000000;
@@ -60,12 +62,11 @@
   --color-line-heights-0: #000000;
   --color-font-families-roboto: #000000;
   --color-font-families-lato: #000000;
-  --color-color-background-button-primary-active: #9ed1ff;
-  --color-color-black: #000000;
-  --color-color-green: #00ff00;
-  --color-color-paleblue: #9ed1ff;
-  --color-color-blue: #9ed1ff;
-  --color-color-danger: #ff0000;
+  --color-black: #000000;
+  --color-green: #00ff00;
+  --color-paleblue: #9ed1ff;
+  --color-blue: #9ed1ff;
+  --color-danger: #ff0000;
   --text-decoration-text-body-default-regular: [object Object];
   --text-decoration-text-header-h6: [object Object];
   --text-decoration-text-header-h1: [object Object];
@@ -75,6 +76,7 @@
   --text-header-h5: [object Object];
   --text-header-h6: [object Object];
   --text-header-h1: [object Object];
+  --color-background-button-default-hover: [object Object];
   --color-text-header-h5: [object Object];
   --color-text-header-h6: [object Object];
   --color-text-header-h1: [object Object];

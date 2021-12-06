@@ -405,33 +405,6 @@
     "danger": {
       "value": "#ff0000",
       "type": "color"
-    },
-    "blue": {
-      "value": "#9ed1ff",
-      "type": "color"
-    },
-    "paleblue": {
-      "value": "#9ed1ff",
-      "type": "color"
-    },
-    "green": {
-      "value": "#00ff00",
-      "type": "color"
-    },
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "background": {
-      "button": {
-        "primary": {
-          "active": {
-            "value": "#9ed1ff",
-            "description": "background for primary buttons in active state",
-            "type": "color"
-          }
-        }
-      }
     }
   },
   "h1": {
@@ -469,5 +442,43 @@
   "roboto": {
     "value": "Roboto",
     "type": "fontFamilies"
+  },
+  "blue": {
+    "value": "#9ed1ff",
+    "type": "color"
+  },
+  "paleblue": {
+    "value": "#9ed1ff",
+    "type": "color"
+  },
+  "green": {
+    "value": "#00ff00",
+    "type": "color"
+  },
+  "black": {
+    "value": "#000000",
+    "type": "color"
+  },
+  "background": {
+    "button": {
+      "primary": {
+        "active": {
+          "value": "#9ed1ff",
+          "description": "background for primary buttons in active state",
+          "type": "color"
+        }
+      },
+      "default": {
+        "hover": {
+          "value": "{color.purple}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    }
+  },
+  "purple": {
+    "value": "#aa22ff",
+    "type": "color"
   }
 }
