@@ -21,6 +21,17 @@
             "format": "scss/variables"
           }
         ]
+      },
+      "andriod": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem"],
+        "transformGroup": "andriod",
+        "buildPath": "output/android/",
+        "files": [
+          {
+            "destination": "_variables.xml",
+            "format": "xml/variables"
+          }
+        ]
       }
       
     }
