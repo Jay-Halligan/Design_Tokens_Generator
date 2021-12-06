@@ -4,6 +4,7 @@
     "platforms": {
       "css": {
         "transforms": ["color/css", "name/cti/kebab"],
+        "transformGroup": "css",
         "files": [
           {
             "destination": "variables.css",
