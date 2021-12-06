@@ -3,6 +3,7 @@
     "source": ["data/**/*.json"],
     "platforms": {
       "css": {
+        "transforms": ["color/css", "name/cti/kebab"],
         "transformGroup": "css",
         "buildPath": "output/css/",
         "files": [
