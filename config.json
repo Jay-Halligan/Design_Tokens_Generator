@@ -32,11 +32,8 @@
           {
             "destination": "colors.xml",
             "format": "android/colors"
-          },
-            {
-              "destination": "dimens.xml",
-              "format": "android/fontSizes"
-             }
+          }
+           
             ]
           }
     }
