@@ -1,237 +1,78 @@
 
-/**
- * Do not edit directly
- * Generated on Mon, 06 Dec 2021 14:50:12 GMT
- */
+// Do not edit directly
+// Generated on Mon, 06 Dec 2021 15:01:14 GMT
 
-$color-danger: #ff0000 !default;
-$color-danger-rgb: #ff0000 !default;
-$color-text-body-default-regular: [object Object] !default;
-$color-text-header-h1: [object Object] !default;
-$color-text-header-h6: [object Object] !default;
-$color-text-header-h5: [object Object] !default;
-$color-font-families-lato: #000000 !default;
-$color-font-families-roboto: #000000 !default;
-$color-line-heights-0: #000000 !default;
-$color-font-weights-regular: #000000 !default;
-$color-font-weights-bold: #000000 !default;
-$color-font-size-0: #000000 !default;
-$color-font-size-1: #000000 !default;
-$color-font-size-2: #000000 !default;
-$color-font-size-3: #000000 !default;
-$color-letter-spacing-0: #000000 !default;
-$color-letter-spacing-1: #000000 !default;
-$color-letter-spacing-2: #000000 !default;
-$color-paragraph-spacing-0: #000000 !default;
-$color-text-case-none: #000000 !default;
-$color-text-decoration-none: #000000 !default;
-$color-blue: #9ed1ff !default;
-$color-paleblue: #9ed1ff !default;
-$color-green: #00ff00 !default;
-$font-families-lato: Lato !default;
-$font-families-roboto: Roboto !default;
-$line-heights-0: AUTO !default;
-$line-heights-auto: AUTO !default;
-$font-weights-regular: Regular !default;
-$font-weights-bold: Bold !default;
-$font-weights-lato-regular: Regular !default;
-$font-weights-roboto-regular: Regular !default;
-$font-size-0: 16 !default;
-$font-size-1: 64 !default;
-$font-size-16: 16 !default;
-$font-size-18: 18 !default;
-$font-size-24: 24 !default;
-$font-size-h1: 64 !default;
-$font-size-h6: 22 !default;
-$letter-spacing-0: -0.5 !default;
-$letter-spacing-1: 0.5 !default;
-$paragraph-spacing-0: 0 !default;
-$text-header-h1: [object Object] !default;
-$text-header-h6: [object Object] !default;
-$text-header-h5: [object Object] !default;
-$text-body-default-regular: [object Object] !default;
-$text-body-default-bold: [object Object] !default;
-$text-body-default-h5: [object Object] !default;
-$text-color-danger: #ff0000 !default;
-$text-case-none: none !default;
-$text-decoration-none: none !default;
-$text-decoration-colors-blue: #9ed1ff !default;
-$text-decoration-danger: #ff0000 !default;
-$text-decoration-danger-rgb: #ff0000 !default;
-$text-decoration-colors-blue: #9ed1ff !default;
-$text-decoration-font-families-lato: Lato !default;
-$text-decoration-font-families-roboto: Roboto !default;
-$text-decoration-line-heights-0: AUTO !default;
-$text-decoration-font-weights-lato-0: Regular !default;
-$text-decoration-font-weights-roboto-1: Regular !default;
-$text-decoration-font-size-0: 16 !default;
-$text-decoration-font-size-1: 22 !default;
-$text-decoration-font-size-2: 24 !default;
-$text-decoration-font-size-3: 64 !default;
-$text-decoration-letter-spacing-0: -0.5 !default;
-$text-decoration-letter-spacing-1: 0% !default;
-$text-decoration-letter-spacing-2: 0.5 !default;
-$text-decoration-paragraph-spacing-0: 0 !default;
-$text-decoration-text-header-h1: [object Object] !default;
-$text-decoration-text-header-h6: [object Object] !default;
-$text-decoration-text-header-h5: [object Object] !default;
-$text-decoration-text-body-default-regular: [object Object] !default;
-$text-decoration-text-case-none: none !default;
-$text-decoration-text-decoration-none: none !default;
-
-$my-tokens: (
-  'color': (
-    'danger': $color-danger,
-    'danger-rgb': $color-danger-rgb,
-    'text': (
-      'body': (
-        'default': (
-          'regular': $color-text-body-default-regular
-        )
-      ),
-      'header': (
-        'h1': $color-text-header-h1,
-        'h6': $color-text-header-h6,
-        'h5': $color-text-header-h5
-      )
-    ),
-    'fontFamilies': (
-      'lato': $color-font-families-lato,
-      'roboto': $color-font-families-roboto
-    ),
-    'lineHeights': (
-      '0': $color-line-heights-0
-    ),
-    'fontWeights': (
-      'regular': $color-font-weights-regular,
-      'bold': $color-font-weights-bold
-    ),
-    'fontSize': (
-      '0': $color-font-size-0,
-      '1': $color-font-size-1,
-      '2': $color-font-size-2,
-      '3': $color-font-size-3
-    ),
-    'letterSpacing': (
-      '0': $color-letter-spacing-0,
-      '1': $color-letter-spacing-1,
-      '2': $color-letter-spacing-2
-    ),
-    'paragraphSpacing': (
-      '0': $color-paragraph-spacing-0
-    ),
-    'textCase': (
-      'none': $color-text-case-none
-    ),
-    'textDecoration': (
-      'none': $color-text-decoration-none
-    ),
-    'blue': $color-blue,
-    'paleblue': $color-paleblue,
-    'green': $color-green
-  ),
-  'fontFamilies': (
-    'lato': $font-families-lato,
-    'roboto': $font-families-roboto
-  ),
-  'lineHeights': (
-    '0': $line-heights-0,
-    'auto': $line-heights-auto
-  ),
-  'fontWeights': (
-    'regular': $font-weights-regular,
-    'bold': $font-weights-bold,
-    'lato-regular': $font-weights-lato-regular,
-    'roboto-regular': $font-weights-roboto-regular
-  ),
-  'fontSize': (
-    '0': $font-size-0,
-    '1': $font-size-1,
-    '16': $font-size-16,
-    '18': $font-size-18,
-    '24': $font-size-24,
-    'h1': $font-size-h1,
-    'h6': $font-size-h6
-  ),
-  'letterSpacing': (
-    '0': $letter-spacing-0,
-    '1': $letter-spacing-1
-  ),
-  'paragraphSpacing': (
-    '0': $paragraph-spacing-0
-  ),
-  'text': (
-    'header': (
-      'h1': $text-header-h1,
-      'h6': $text-header-h6,
-      'h5': $text-header-h5
-    ),
-    'body': (
-      'default': (
-        'regular': $text-body-default-regular,
-        'bold': $text-body-default-bold,
-        'h5': $text-body-default-h5
-      )
-    ),
-    'color': (
-      'danger': $text-color-danger
-    )
-  ),
-  'textCase': (
-    'none': $text-case-none
-  ),
-  'textDecoration': (
-    'none': $text-decoration-none,
-    'colors': (
-      'blue': $text-decoration-colors-blue
-    ),
-    'danger': $text-decoration-danger,
-    'danger-rgb': $text-decoration-danger-rgb,
-    'Colors': (
-      'blue': $text-decoration-colors-blue
-    ),
-    'fontFamilies': (
-      'lato': $text-decoration-font-families-lato,
-      'roboto': $text-decoration-font-families-roboto
-    ),
-    'lineHeights': (
-      '0': $text-decoration-line-heights-0
-    ),
-    'fontWeights': (
-      'lato-0': $text-decoration-font-weights-lato-0,
-      'roboto-1': $text-decoration-font-weights-roboto-1
-    ),
-    'fontSize': (
-      '0': $text-decoration-font-size-0,
-      '1': $text-decoration-font-size-1,
-      '2': $text-decoration-font-size-2,
-      '3': $text-decoration-font-size-3
-    ),
-    'letterSpacing': (
-      '0': $text-decoration-letter-spacing-0,
-      '1': $text-decoration-letter-spacing-1,
-      '2': $text-decoration-letter-spacing-2
-    ),
-    'paragraphSpacing': (
-      '0': $text-decoration-paragraph-spacing-0
-    ),
-    'text': (
-      'header': (
-        'h1': $text-decoration-text-header-h1,
-        'h6': $text-decoration-text-header-h6,
-        'h5': $text-decoration-text-header-h5
-      ),
-      'body': (
-        'default': (
-          'regular': $text-decoration-text-body-default-regular
-        )
-      )
-    ),
-    'textCase': (
-      'none': $text-decoration-text-case-none
-    ),
-    'textDecoration': (
-      'none': $text-decoration-text-decoration-none
-    )
-  )
-);
+$color-danger: #ff0000;
+$color-danger-rgb: #ff0000;
+$color-text-body-default-regular: [object Object];
+$color-text-header-h1: [object Object];
+$color-text-header-h6: [object Object];
+$color-text-header-h5: [object Object];
+$color-font-families-lato: #000000;
+$color-font-families-roboto: #000000;
+$color-line-heights-0: #000000;
+$color-font-weights-regular: #000000;
+$color-font-weights-bold: #000000;
+$color-font-size-0: #000000;
+$color-font-size-1: #000000;
+$color-font-size-2: #000000;
+$color-font-size-3: #000000;
+$color-letter-spacing-0: #000000;
+$color-letter-spacing-1: #000000;
+$color-letter-spacing-2: #000000;
+$color-paragraph-spacing-0: #000000;
+$color-text-case-none: #000000;
+$color-text-decoration-none: #000000;
+$color-blue: #9ed1ff;
+$color-paleblue: #9ed1ff;
+$color-green: #00ff00;
+$font-families-lato: Lato;
+$font-families-roboto: Roboto;
+$line-heights-0: AUTO;
+$line-heights-auto: AUTO;
+$font-weights-regular: Regular;
+$font-weights-bold: Bold;
+$font-weights-lato-regular: Regular;
+$font-weights-roboto-regular: Regular;
+$font-size-0: 16;
+$font-size-1: 64;
+$font-size-16: 16;
+$font-size-18: 18;
+$font-size-24: 24;
+$font-size-h1: 64;
+$font-size-h6: 22;
+$letter-spacing-0: -0.5;
+$letter-spacing-1: 0.5;
+$paragraph-spacing-0: 0;
+$text-header-h1: [object Object];
+$text-header-h6: [object Object];
+$text-header-h5: [object Object];
+$text-body-default-regular: [object Object];
+$text-body-default-bold: [object Object];
+$text-body-default-h5: [object Object];
+$text-color-danger: #ff0000;
+$text-case-none: none;
+$text-decoration-none: none;
+$text-decoration-colors-blue: #9ed1ff;
+$text-decoration-danger: #ff0000;
+$text-decoration-danger-rgb: #ff0000;
+$text-decoration-colors-blue: #9ed1ff;
+$text-decoration-font-families-lato: Lato;
+$text-decoration-font-families-roboto: Roboto;
+$text-decoration-line-heights-0: AUTO;
+$text-decoration-font-weights-lato-0: Regular;
+$text-decoration-font-weights-roboto-1: Regular;
+$text-decoration-font-size-0: 16;
+$text-decoration-font-size-1: 22;
+$text-decoration-font-size-2: 24;
+$text-decoration-font-size-3: 64;
+$text-decoration-letter-spacing-0: -0.5;
+$text-decoration-letter-spacing-1: 0%;
+$text-decoration-letter-spacing-2: 0.5;
+$text-decoration-paragraph-spacing-0: 0;
+$text-decoration-text-header-h1: [object Object];
+$text-decoration-text-header-h6: [object Object];
+$text-decoration-text-header-h5: [object Object];
+$text-decoration-text-body-default-regular: [object Object];
+$text-decoration-text-case-none: none;
+$text-decoration-text-decoration-none: none;
