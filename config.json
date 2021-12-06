@@ -33,7 +33,8 @@
             "format": "android/resources",
             "filter":{
               "attributes": { "category": "color" }
-            },
+            }
+          },
             {
               "destination": "fontSizes.xml",
               "format": "android/resources",
@@ -47,8 +48,7 @@
               "filter":{
                 "attributes": { "category": "content" }
                 }            
-              },
-          }
+              }
             ]
           }
     }
