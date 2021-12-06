@@ -450,5 +450,9 @@
   "paleblue": {
     "value": "#9ed1ff",
     "type": "color"
+  },
+  "green": {
+    "value": "#00ff00",
+    "type": "color"
   }
 }

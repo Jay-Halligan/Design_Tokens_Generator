@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Dec 2021 13:17:27 GMT
+ * Generated on Mon, 06 Dec 2021 13:35:32 GMT
  */
 
 :root {
@@ -27,6 +27,7 @@
   --color-text-decoration-none: #000000;
   --color-blue: #9ed1ff;
   --color-paleblue: #9ed1ff;
+  --color-green: #00ff00;
   --font-families-lato: Lato;
   --font-families-roboto: Roboto;
   --line-heights-0: AUTO;
