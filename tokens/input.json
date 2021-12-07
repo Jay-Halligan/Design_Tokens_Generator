@@ -464,17 +464,15 @@
     "button": {
       "primary": {
         "active": {
-          "value": "{color.paleblue}",
+          "value": "#9ed1ff",
           "description": "background for primary buttons in active state",
-          "type": "color",
-          "failedToResolve": true
+          "type": "color"
         }
       },
       "default": {
         "hover": {
-          "value": "{color.purple}",
-          "type": "color",
-          "failedToResolve": true
+          "value": "#aa22ff",
+          "type": "color"
         }
       }
     }
