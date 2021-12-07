@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 07 Dec 2021 14:11:51 GMT
+  Generated on Tue, 07 Dec 2021 14:14:22 GMT
 -->
 <resources>
   <color name="color-danger">#ff0000</color>
@@ -11,7 +11,7 @@
   <color name="color-green">#00ff00</color>
   <color name="color-black">#000000</color>
   <color name="color-text-body-default-regular">#000000</color>
-  <color name="color-text-header-h1">[object Object]</color>
+  <color name="color-text-header-h1">#000000</color>
   <color name="color-text-header-h6">[object Object]</color>
   <color name="color-text-header-h5">[object Object]</color>
   <color name="color-font-families-lato">#000000</color>
