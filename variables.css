@@ -1,12 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Tue, 07 Dec 2021 14:14:22 GMT
+ * Generated on Tue, 07 Dec 2021 15:40:49 GMT
  */
 
 :root {
   --text-decoration-text-decoration-none: none;
   --text-decoration-text-case-none: none;
-  --text-decoration-text-header-h5: [object Object];
   --text-decoration-paragraph-spacing-0: 0;
   --text-decoration-letter-spacing-2: 0.5;
   --text-decoration-letter-spacing-1: 0%;
@@ -32,7 +31,9 @@
   --letter-spacing-0: -0.5;
   --font-size-h6: 22;
   --font-size-h1: 64;
+  --font-size-64: 64;
   --font-size-24: 24;
+  --font-size-22: 22;
   --font-size-18: 18;
   --font-size-16: 16;
   --font-size-1: 64;
@@ -53,26 +54,25 @@
   --color-text-decoration-none: none;
   --color-text-case-none: none;
   --color-paragraph-spacing-0: 0;
-  --color-letter-spacing-2: 0.5;
-  --color-letter-spacing-1: 0%;
   --color-letter-spacing-0: -0.5;
-  --color-font-size-3: 64;
-  --color-font-size-2: 24;
-  --color-font-size-1: 22;
-  --color-font-size-0: 16;
+  --color-font-size-24: 24;
+  --color-font-size-22: 22;
+  --color-font-size-16: 16;
   --color-font-weights-bold: Bold;
   --color-font-weights-regular: Regular;
   --color-line-heights-0: AUTO;
   --color-font-families-roboto: Roboto;
   --color-font-families-lato: Lato;
-  --color-text-header-h1: [object Object];
+  --color-text-header-h5: [object Object];
+  --color-text-header-h6: [object Object];
   --color-text-body-default-regular: [object Object];
-  --color-black: #000000;
+  --color-black: #010101;
   --color-green: #00ff00;
   --color-paleblue: #9ed1ff;
   --color-blue-mid: #0000dd;
   --color-danger: #ff0000;
   --text-decoration-text-body-default-regular: [object Object];
+  --text-decoration-text-header-h5: [object Object];
   --text-decoration-text-header-h6: [object Object];
   --text-decoration-text-header-h1: [object Object];
   --text-body-default-h5: [object Object];
@@ -81,6 +81,4 @@
   --text-header-h5: [object Object];
   --text-header-h6: [object Object];
   --text-header-h1: [object Object];
-  --color-text-header-h5: [object Object];
-  --color-text-header-h6: [object Object];
 }
