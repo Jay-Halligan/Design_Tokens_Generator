@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 06 Dec 2021 17:35:43 GMT
+  Generated on Tue, 07 Dec 2021 10:37:40 GMT
 -->
 <resources>
   <color name="color-danger">#ff0000</color>
@@ -10,6 +10,25 @@
   <color name="color-paleblue">#9ed1ff</color>
   <color name="color-green">#00ff00</color>
   <color name="color-black">#000000</color>
+  <color name="color-text-body-default-regular">[object Object]</color>
+  <color name="color-text-header-h1">[object Object]</color>
+  <color name="color-text-header-h6">[object Object]</color>
+  <color name="color-text-header-h5">[object Object]</color>
+  <color name="color-font-families-lato">#000000</color>
+  <color name="color-font-families-roboto">#000000</color>
+  <color name="color-line-heights-0">#000000</color>
+  <color name="color-font-weights-regular">#000000</color>
+  <color name="color-font-weights-bold">#000000</color>
+  <color name="color-font-size-0">#000000</color>
+  <color name="color-font-size-1">#000000</color>
+  <color name="color-font-size-2">#000000</color>
+  <color name="color-font-size-3">#000000</color>
+  <color name="color-letter-spacing-0">#000000</color>
+  <color name="color-letter-spacing-1">#000000</color>
+  <color name="color-letter-spacing-2">#000000</color>
+  <color name="color-paragraph-spacing-0">#000000</color>
+  <color name="color-text-case-none">#000000</color>
+  <color name="color-text-decoration-none">#000000</color>
   <color name="color-background-button-primary-active">[object Object]</color>
   <color name="color-background-button-default-hover">[object Object]</color>
   <color name="color-purple">#aa22ff</color>
