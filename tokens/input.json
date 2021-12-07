@@ -486,5 +486,9 @@
   "yellow": {
     "value": "#ffff00",
     "type": "color"
+  },
+  "test": {
+    "value": "#aa7744",
+    "type": "color"
   }
 }

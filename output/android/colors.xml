@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 07 Dec 2021 10:37:40 GMT
+  Generated on Tue, 07 Dec 2021 11:17:23 GMT
 -->
 <resources>
   <color name="color-danger">#ff0000</color>
@@ -33,5 +33,6 @@
   <color name="color-background-button-default-hover">[object Object]</color>
   <color name="color-purple">#aa22ff</color>
   <color name="color-yellow">#ffff00</color>
+  <color name="color-test">#aa7744</color>
   
 </resources>
