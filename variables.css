@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Dec 2021 08:30:19 GMT
+ * Generated on Thu, 09 Dec 2021 08:33:09 GMT
  */
 
 :root {
@@ -51,21 +51,21 @@
   --color-purple: #aa22ff;
   --color-background-button-default-hover: #aa22ff;
   --color-background-button-primary-active: #9ed1ff;
-  --color-text-decoration-none: none;
-  --color-text-case-none: none;
-  --color-paragraph-spacing-0: 0;
-  --color-letter-spacing-0: -0.5;
-  --color-font-size-24: 24;
-  --color-font-size-22: 22;
-  --color-font-size-16: 16;
-  --color-font-weights-bold: Bold;
-  --color-font-weights-regular: Regular;
-  --color-line-heights-0: AUTO;
-  --color-font-families-roboto: Roboto;
-  --color-font-families-lato: Lato;
-  --color-text-header-h5: [object Object];
-  --color-text-header-h6: [object Object];
-  --color-text-body-default-regular: [object Object];
+  --color-text-decoration-none: #000000;
+  --color-text-case-none: #000000;
+  --color-paragraph-spacing-0: #000000;
+  --color-letter-spacing-0: #000000;
+  --color-font-size-24: #000000;
+  --color-font-size-22: #000000;
+  --color-font-size-16: #000000;
+  --color-font-weights-bold: #000000;
+  --color-font-weights-regular: #000000;
+  --color-line-heights-0: #000000;
+  --color-font-families-roboto: #000000;
+  --color-font-families-lato: #000000;
+  --color-text-header-h5: #000000;
+  --color-text-header-h6: #000000;
+  --color-text-body-default-regular: #000000;
   --color-black: #010101;
   --color-green: #00ff00;
   --color-paleblue: #9ed1ff;
