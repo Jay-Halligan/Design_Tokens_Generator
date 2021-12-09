@@ -2,8 +2,29 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 09 Dec 2021 09:12:37 GMT
+  Generated on Thu, 09 Dec 2021 09:18:03 GMT
 -->
 <resources>
+  <color name="color-blue">#3273af</color>
+  <color name="color-danger">#ff0000</color>
+  <color name="color-danger-rgb">#ff0000</color>
+  <color name="color-blue-mid">#0000dd</color>
+  <color name="color-paleblue">#9ed1ff</color>
+  <color name="color-green">#00ff00</color>
+  <color name="color-black">#010101</color>
+  <color name="color-purple">#aa22ff</color>
+  <color name="color-yellow">#ffff00</color>
+  <color name="color-background-button-secondary-enabled">#4e55a2</color>
+  <color name="color-background-button-secondary-disabled">#bdbdbd</color>
+  <color name="color-background-button-primary-enabled">#e94e1b</color>
+  <color name="color-background-button-primary-disabled">#bdbdbd</color>
+  <color name="color-foreground-button-primary-enabled">#ffffff</color>
+  <color name="color-foreground-button-primary-disabled">#4a4a49</color>
+  <color name="color-foreground-button-secondary-enabled">#ffffff</color>
+  <color name="color-foreground-button-secondary-disabled">#4a4a49</color>
+  <color name="color-foreground-dropdown-placeholder-enabled">#bdbdbd</color>
+  <color name="color-foreground-input-label">#000000</color>
+  <color name="color-foreground-input-placeholder-active">#bdbdbd</color>
+  <color name="color-border-dropdown-active">#bdbdbd</color>
   
 </resources>
