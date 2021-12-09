@@ -1,41 +1,44 @@
-
 {
-    "source": ["data/**/*.json"],
-    "platforms": {
-      "css": {
-        "transforms": ["color/css", "name/cti/kebab"],
-        "transformGroup": "css",
-        "files": [
-          {
-            "destination": "variables.css",
-            "format": "css/variables",
-            "options": {
-              "outputReferences": true
-            }
+  "source": ["data/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
           }
-        ]
-      },
-      "scss": {
-        "transformGroup": "scss",
-        "buildPath": "output/scss/",
-        "files": [
-          {
-            "destination": "_variables.scss",
-            "format": "scss/variables"
-          }
-        ]
-      },
-      "andriod": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/remToSp", "size/remToDp"],
-        "transformGroup": "andriod",
-        "buildPath": "output/android/",
-        "files": [
-          {
-            "destination": "colors.xml",
-            "format": "android/colors"
-          }
-           
-            ]
-          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "output/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "andriod": {
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/hex",
+        "size/remToSp",
+        "size/remToDp"
+      ],
+      "transformGroup": "andriod",
+      "buildPath": "output/android/",
+      "files": [
+        {
+          "destination": "colors.xml",
+          "format": "android/colors"
+        }
+      ]
     }
   }
+}
