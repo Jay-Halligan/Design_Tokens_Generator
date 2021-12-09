@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 09 Dec 2021 09:21:51 GMT
+  Generated on Thu, 09 Dec 2021 10:28:12 GMT
 -->
 <resources>
   <color name="color-blue">#3273af</color>
@@ -27,5 +27,6 @@
   <color name="color-foreground-input-placeholder-active">#bdbdbd</color>
   <color name="color-border-dropdown-active">#bdbdbd</color>
   <color name="color-border-input-active">#000000</color>
+  <color name="color-font-body-default">#4a4a49</color>
   
 </resources>
